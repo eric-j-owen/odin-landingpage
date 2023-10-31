@@ -1,7 +1,6 @@
 * { 
-    font-family: 'Roboto';
-    border: 1px solid red;
     font-family: "Roboto", sans-serif;
+    border: 1px solid red;
     padding:0;
     margin:0;
 }
@@ -16,9 +15,10 @@
 }
 
 body{
-    min-height: 100vh;
+    
     display: flex;
     flex-direction: column;
+    
     
 }
 /* 
@@ -32,6 +32,7 @@ Header section
     justify-content: space-between;
     background-color: var(--dark-bg);
     color:var(--light-sec-text);
+    padding: 10px 200px;
 }
 .logo {
     font-weight: 600;
@@ -56,14 +57,18 @@ Hero section
 
 .hero {
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     background-color: var(--dark-bg);
+    padding: 100px 200px;
+    align-items: center;
 }
 .hero-content{
     display: flex;
     flex-direction: column;
     text-align: left;
     flex-wrap: wrap;
+    max-width: 50%;
+    height: 30vh;
 }
 
 .hero-content h1{
@@ -81,6 +86,11 @@ Hero section
     color: var(--light-sec-text);
     font-size:18px;
 }
+.hero-image {
+    background-color: grey;
+    height: 30vh;
+    flex-grow: 3;
+}
 
 /* 
 info section 
@@ -92,6 +102,7 @@ info section
     font-size: 36px;
     font-weight: 900;
     color:var(--dark-prime-text);
+    padding-top: 50px;
 }
 
 .cards{
@@ -99,10 +110,17 @@ info section
     display: flex;
     justify-content: center;
     gap:75px;
+    padding:50px;
+    
 }
 .card{
-    flex-basis: 0;
+    flex-basis: 150px;
+}
+
+.card img {
     border: 3px solid var(--dark-bg-sec);
+    min-height: 125px;
+    
 }
 
 /* 
@@ -113,11 +131,14 @@ quote section
     display: flex;
     flex-direction: column;
     background-color: var(--mid-bg);
+    padding:125px;
 }
 .quote-section blockquote {
     text-align: center;
     font-size: 36px;
     font-weight:300;
+    font-style: italic;
+    margin-bottom: 20px;
 }
 
 .quote-section p {
@@ -135,7 +156,11 @@ Signup section
 .footer-signup{
     display: flex;
     justify-content: space-between;
+    align-self: center;
     background-color: var(--dark-bg-sec);
+    width:75%;
+    padding:30px 100px;
+    margin: 20px auto;
     
 }
 
@@ -157,6 +182,7 @@ Signup section
     color: var(--light-prime-text);
     font-weight: 500;
     font-size:24px;
+    padding:20px
 }
 /*
 Footer section
@@ -167,4 +193,5 @@ footer{
     margin-top: auto;
     background-color: var(--dark-bg);
     color: var(--light-sec-text);
+    padding:38px;
 }
