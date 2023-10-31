@@ -1,0 +1,13 @@
+* {
+    border: 2px solid red;
+}
+
+.header{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+}
