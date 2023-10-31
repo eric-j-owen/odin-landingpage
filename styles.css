@@ -1,6 +1,13 @@
 * {
-    border: 2px solid red;
+    border: 1px solid red;
+    padding:0;
+    margin:0;
 }
+
+/* 
+Header section
+============== 
+*/
 
 .header{
     list-style-type: none;
@@ -10,4 +17,75 @@
 
 .links{
     display: flex;
+}
+
+/* 
+Hero section
+============ 
+*/
+.hero {
+    display: flex;
+    justify-content:space-between;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.hero-content button {
+    width:100px;
+}
+
+/* 
+info section 
+============
+*/
+
+.info-section h3 {
+    text-align: center;
+}
+.cards{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap:75px;
+}
+.card{
+    flex-basis: 0;
+}
+
+/* 
+quote section
+============= 
+*/
+.quote-section{
+    display: flex;
+    flex-direction: column;
+}
+.quote-section q {
+    text-align: center;
+}
+
+.quote-section p {
+    align-self: flex-end;
+}
+
+/*
+Signup section
+==============
+*/
+
+.footer-signup{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*
+Footer section
+==============
+*/
+footer{
+    text-align: center;
 }
