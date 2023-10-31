@@ -1,6 +1,5 @@
 * { 
     font-family: "Roboto", sans-serif;
-    border: 1px solid red;
     padding:0;
     margin:0;
 }
@@ -10,7 +9,8 @@
     --light-prime-text: #F9FAF8;
     --light-sec-text: #E5E7EB;
     --dark-bg-sec:#3882F6;
-    --dark-prime-text:#1F2937;
+    --dark-prime-te    /* border: 1px solid red; */
+xt:#1F2937;
     --mid-bg:#E5E7EB;
 }
 
