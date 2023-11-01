@@ -67,27 +67,32 @@ Hero section
     text-align: left;
     flex-wrap: wrap;
     max-width: 50%;
-    height: 30vh;
+    height: 30%;
 }
 
 .hero-content h1{
     color:var(--light-prime-text);
     font-size: 48px;
     font-weight: 900;
+    margin: 10px 0;
 }
 .hero-content p {
     color:var(--light-sec-text);
     font-size: 18px;
+    margin: 10px 100px 10px 0;
+    padding: 10px 0;
 }
 .hero-content button {
     width:100px;
     background-color: var(--dark-bg-sec);
     color: var(--light-sec-text);
     font-size:18px;
+    padding:10px;
+    margin: 10px 0;
 }
 .hero-image {
     background-color: grey;
-    height: 30vh;
+    height: 300px;
     flex-grow: 3;
 }
 
